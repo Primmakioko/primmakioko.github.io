@@ -178,7 +178,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 	document.querySelectorAll('.project-detail .detail-block').forEach((block) => {
 		const heading = block.querySelector('h3')?.textContent.trim();
-		if (heading === 'Impact' || heading === 'Impact / Results' || heading === 'Project Gallery') block.remove();
+		if (heading === 'Impact' || heading === 'Impact / Results') block.remove();
 	});
 
 	const peepDetails = document.querySelector('#peep-antenatal-details');
